@@ -1,0 +1,86 @@
+.head ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #63c404;
+}
+.head li {
+	float: left;
+	border-right: 1px solid #fff;
+}
+.head li:last-child {
+	border-right: none;
+}
+.head li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.head li a:hover:not(.active) {
+	background-color: #8dd645;
+}
+.active {
+	background-color: #da3c41;
+}
+/*ボタンのやつ*/
+/*全体*/
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+  border: 2px solid #000;
+  border-radius: 0;
+  background: #fff;
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+   color: #fff;
+  background: #000;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+/*ぼたんおわり*/
+ul{
+  list-style:none;
+}
+.main li{
+  padding:20px;
+}
+table{
+  border-collapse:collapse;
+  margin:0 auto;
+}
+td,th{
+  border:1px solid #ccc;
+  padding:10px;
+}
+img{
+  width:150px;
+  height:150px;
+}
